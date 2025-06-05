@@ -148,9 +148,24 @@ Recompile and observe the layout.
 ## Questions
 
 1. Why is the `graphicx` package necessary for including images?
+
+The graphicx package provides the \includegraphics command, 
+which is essential for loading and scaling external image files in LaTeX.
+
 2. What happens if you omit `\centering` inside a `figure`?
+
+If you omit \centering inside a figure, the image will be left-aligned by default, 
+which may look unbalanced in the document.
+
 3. How does LaTeX number the figures automatically?
+
+LaTeX automatically numbers figures sequentially using the figure environment 
+and updates references accordingly.
+
 4. Why is separating figures into their own folder helpful?
+
+Keeping figures in a separate folder helps organize your project, 
+makes the source cleaner, and avoids clutter in the main directory.
 
 ---
 
